@@ -1,0 +1,121 @@
+body {
+  background-color: #f3f5fc;
+}
+
+
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 24px;
+  height: 60px;
+  background-color: #052051;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.6;
+  transition: 500ms;
+}
+
+.encriptadores {
+  flex-direction: column;
+  width: 10%;
+  display: inline;
+}
+
+#encriptador1, #encriptador2, #encriptador3 {
+  border-radius: 0%;
+  margin-left: 10%;
+}
+
+
+
+.seccion-izquierda {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  float: left;
+}
+
+.input-texto {
+  border: none;
+  font-size: 32px;
+  background-color: #ffffff75;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+}
+
+#mensaje-izquierda {
+  color: #0a3871;
+}
+
+#signo {
+  margin-top: 40px;
+}
+
+#texto-signo {
+  display: inline;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+#boton-desencriptar:hover {
+  opacity: 0.6;
+  transition: 500ms;
+}
+
+.seccion-derecha {
+  background-color: white;
+  width: 30%;
+  height: 600px;
+  overflow: auto;
+  margin-left: 30%;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-wrap: break-word;
+}
+
+#muñeco {
+  margin-left: 15%;
+  margin-top: 20%;
+  
+  display: inherit;
+}
+
+#mensaje-no-encontrado {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  color: #052051;
+}
+
+#mensaje-derecha {
+  font-size: 16px;
+  color: #052051;
+}
+
+#boton-copiar-texto {
+  margin-left: 70%;
+  display: none;
+}
+
+.seccion-botones {
+  margin-left: 10%;
+}
+
+#boton-encriptar {
+  width: 300px;
+  height: 60px;
+  font-size: large;
+  margin-right: 25px;
+}
+
+#boton-desencriptar {
+  width: 300px;
+  font-size: large;
+  background-color: #ffffff75;
+  color: #343a40;
+}
+
