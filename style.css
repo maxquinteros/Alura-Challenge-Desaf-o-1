@@ -2,8 +2,6 @@ body {
   background-color: #f3f5fc;
 }
 
-
-
 button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 24px;
@@ -23,12 +21,12 @@ button:hover {
   display: inline;
 }
 
-#encriptador1, #encriptador2, #encriptador3 {
+#encriptador1,
+#encriptador2,
+#encriptador3 {
   border-radius: 0%;
   margin-left: 10%;
 }
-
-
 
 .seccion-izquierda {
   margin-left: 10%;
@@ -80,7 +78,7 @@ button:hover {
 #muñeco {
   margin-left: 15%;
   margin-top: 20%;
-  
+
   display: inherit;
 }
 
@@ -119,3 +117,92 @@ button:hover {
   color: #343a40;
 }
 
+/* Versión para tabletas*/
+@media screen and (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .encriptadores {
+    width: 100%;
+    display: block;
+    margin: 25px;
+    margin-left: 15%;
+  }
+
+  .seccion-izquierda {
+    margin: 25px;
+    order: 1;
+  }
+
+  .seccion-botones {
+    order: 2;
+    width: 100%;
+    margin-left: auto;
+  }
+
+  #mensaje-izquierda {
+    width: 100%;
+    height: 400px;
+  }
+
+  #signo {
+    margin-top: 10px;
+  }
+
+  .seccion-derecha {
+    width: 89%;
+    margin: 25px;
+    height: 200px;
+    order: 3;
+  }
+
+  #muñeco {
+    display: none;
+  }
+}
+
+
+/* Versión para celular*/
+@media screen and (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .encriptadores {
+    width: 100%;
+    display: block;
+    margin: 25px;
+  }
+
+  .seccion-izquierda {
+    margin: 25px;
+    order: 1;
+  }
+
+  .seccion-botones {
+    order: 2;
+  }
+
+  #mensaje-izquierda {
+    width: 100%;
+    height: 200px;
+  }
+
+  #signo {
+    margin-top: 10px;
+  }
+
+  .seccion-derecha {
+    width: 89%;
+    margin: 25px;
+    height: 200px;
+    order: 3;
+  }
+
+  #muñeco {
+    display: none;
+  }
+}
